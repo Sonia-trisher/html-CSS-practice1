@@ -1,0 +1,75 @@
+ /* hero section*/ 
+ 
+ /* universal selector  */
+ *{
+   padding:0px;
+   margin:0px; 
+ }
+ body{
+    background-color: gray;
+    color: black;
+    font-family: "Poppins" Times, serif ;
+    
+ }
+ /* class selector*/
+ .hero{
+   padding: 100px;
+ }
+ .hero__title{
+    color:black; 
+ }
+ .hero__description{
+    color: #217e15;
+ } 
+ .hero__highlight{
+    color: aliceblue ;
+ }
+ /* feature section*/
+
+ .feature{
+    padding: 100px;
+ }
+ .feature__item{
+    padding: 20px 0px;
+ }
+ .feature__title{
+    font-size:2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #217e15;
+    margin-bottom:10px;
+   
+ }
+ .feature__title--selected{
+    text-decoration:underline;
+ }
+ .feature__description{
+    /* text-align: center; */
+    /* letter-spacing: ; */
+    /* line-height: 2.2rem;*/
+     /* word-spacing:3rem; */
+     /* white-space: nowrap */
+
+ }
+ /* 3.COLOR- call to action */
+.cta{
+    padding: 100px;
+    background-color: #217e15;
+    color: #fff;
+    text-align: center;
+}
+.cta__title{
+
+}
+.cta__description{
+    padding: 15px 0;
+    color: #dbdbdb;
+
+}
+button{
+     color:none;
+     border:none;
+}
+.cta__button{
+    padding:10px 20px;
+}
