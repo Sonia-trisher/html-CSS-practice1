@@ -43,7 +43,7 @@
  .feature__title--selected{
     text-decoration:underline;
  }
- .feature__description{
+ .feature__description{ 
     /* text-align: center; */
     /* letter-spacing: ; */
     /* line-height: 2.2rem;*/
@@ -116,7 +116,7 @@ button{
 }
  .programs__cards{ 
     display: flex;
-    /* width: 100%; */
+    width: 100%;
     justify-content: space-between;
     margin-top: 20px;
 }
